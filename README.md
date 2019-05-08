@@ -44,11 +44,11 @@ def menu():
     </tr>
   
 </table>
-<em>For this portion of the options I used a PANDAS counter function. Replacing 'Column' with one of the Indexed Column names to narrow down the display. In my Screenshot I eliminated, DogName, OwnerZip, Color, ExpYear and ValidDate.</em>
+<em>For this portion of the options I used a PANDAS counter function. Replacing 'Column' with one of the Indexed Column names to narrow down the display.</em>
 
 <h4> Code: </h4>
 
-<pre><code>  df.set_index(["Column", "Column"]).count(level="LicenseType")  </pre></code>
+<pre><code>  df.set_index(["ExpYear", "Color", "ValidDate", "OwnerZip", "DogName", "LicenseType"]).count(level="LicenseType")  </pre></code>
 
 <h4> Output </h4>
 
