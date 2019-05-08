@@ -70,3 +70,15 @@ def menu():
 <h4> Output </h4>
 
 ![python documentation](stats.png "stats docs")
+
+<em> Each Option at the end will prompt the user if they would like to create a csv file of the data shown and return user to the main menu. </em>
+
+<h4> Code: </h4>
+
+<pre><code> df.to_csv('CSV_Total.csv', index =False) </pre></code>
+
+<h4> Output: </h4>
+
+![python documentation](save.jpg "save1 docs")
+
+![python documentation](savetotal.jpg "save2 docs")
