@@ -16,7 +16,7 @@
   
 </table>
 
-To simpilify my menu, I printed the options and added input variable tag 'choice' at the end to apply to each option. If an option outside of the listed numeric choice is entered an error message will show. 
+<em> To simpilify my menu, I printed the options and added input variable tag 'choice' at the end to apply to each option. If an option outside of the listed numeric choice is entered an error message will show. </em>
 
 <h4> Code: </h4>
 <pre><code>
@@ -44,11 +44,11 @@ def menu():
     </tr>
   
 </table>
-For this portion of the options I used a PANDAS counter function. Replacing 'Column' with one of the Indexed Column names to narrow down the display. In my Screenshot I eliminated, DogName, OwnerZip, Color, ExpYear and ValidDate.
+<em>For this portion of the options I used a PANDAS counter function. Replacing 'Column' with one of the Indexed Column names to narrow down the display. In my Screenshot I eliminated, DogName, OwnerZip, Color, ExpYear and ValidDate.</em>
 
 <h4> Code: </h4>
 
-<pre><code>  print(df.set_index(["Column", "Column"]).count(level="LicenseType"))  </pre></code>
+<pre><code>  df.set_index(["Column", "Column"]).count(level="LicenseType")  </pre></code>
 
 <h4> Output </h4>
 
@@ -60,6 +60,8 @@ For this portion of the options I used a PANDAS counter function. Replacing 'Col
     </tr>
   
 </table>
+
+<em> Using the datafile description function you can view basic stats of the csv file. </em>
 
 <h4> Code: </h4>
 
