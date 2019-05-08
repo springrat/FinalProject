@@ -1,5 +1,5 @@
 # FinalProject
-<h1> Python Pandas With Allegheny LifeTime Dog Licenses </H1>
+<h1> Python & Pandas With Allegheny LifeTime Dog Licenses </H1>
 
 ![python documentation](PA_DOGS.jpg "DOG docs")
 
@@ -36,7 +36,7 @@ def menu():
 
 <H4> OutPut </H4>
 
-![python documentation](menu.png "menu docs")
+![python documentation](menu2.jpg "menu docs")
 
 <table>
     <tr>
