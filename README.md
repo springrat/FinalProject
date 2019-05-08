@@ -1,5 +1,5 @@
 # FinalProject
-<h1> PANDAS With Allegheny LifeTime Dog Licenses </H1>
+<h1> Python Pandas With Allegheny LifeTime Dog Licenses </H1>
 
 ![python documentation](PA_DOGS.jpg "DOG docs")
 
