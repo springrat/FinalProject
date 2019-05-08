@@ -75,7 +75,7 @@ def menu():
 
 <h4> Code: </h4>
 
-<pre><code> df.to_csv('CSV_Total.csv', index =False) </pre></code>
+<pre><code> df.to_csv('total.csv', index =False) </pre></code>
 
 <h4> Output: </h4>
 
