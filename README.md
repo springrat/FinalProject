@@ -26,7 +26,9 @@
   
 </table>
 For this portion of the options I used a PANDAS counter function. Replacing 'Column' with one of the Indexed Column names to narrow down the display. In my Screenshot I eleiminated, DogName, OwnerZip, Color, ExpYear and ValidDate and what table I 
-df.set_index(["Column", "Column"]).count(level="LicenseType")
+
+<pre><code>  df.set_index(["Column", "Column"]).count(level="LicenseType")  </pre></code>
+
 ![python documentation](Total.png "Total docs")
 
 <table>
