@@ -65,7 +65,7 @@ def menu():
 
 <h4> Code: </h4>
 
-<pre><code> print(df.describe()) </pre></code>
+<pre><code> df.describe() </pre></code>
 
 <h4> Output </h4>
 
@@ -82,3 +82,4 @@ def menu():
 ![python documentation](save.jpg "save1 docs")
 
 ![python documentation](savetotal.jpg "save2 docs")
+
